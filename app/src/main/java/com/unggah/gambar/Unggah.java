@@ -32,7 +32,7 @@ import java.util.Map;
 
 public class Unggah extends AppCompatActivity {
 
-    //Inisialisasi variabel
+    //Deklarasi variabel
     ImageView gambar;
     Bitmap bitmap;
     final int KODE_AKTIVITAS_GALERI = 1;
@@ -42,7 +42,7 @@ public class Unggah extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.unggah);
 
-        //Deklarasi variabel
+        //Inisialisasi variabel
         gambar = (ImageView) findViewById(R.id.gambar);
 
         //Perintahkan gambar
