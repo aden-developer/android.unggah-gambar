@@ -30,7 +30,7 @@ import java.util.Map;
 
 public class Potong_Unggah extends AppCompatActivity {
 
-    //Inisialisasi variabel
+    //Deklarasi variabel
     ImageView gambar;
     Bitmap bitmap;
 
@@ -39,7 +39,7 @@ public class Potong_Unggah extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.potong_unggah);
 
-        //Deklarasi variabel
+        //Inisialisasi variabel
         gambar = (ImageView) findViewById(R.id.gambar);
 
         //Perintahkan gambar
